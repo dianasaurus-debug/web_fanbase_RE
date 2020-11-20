@@ -1,0 +1,88 @@
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../news/assets/style.css">
+	<style type="text/css">
+		.card p:hover {
+			 background-color: red;
+			 color : white;
+		}
+		.card p.active {
+			 background-color: red;
+			 color : white;
+		}
+		.card:hover {
+			background-size: cover;
+			background-position : 100% -10%;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li class="logo"><span class="red">R</span>ESIDENT <span class="red">E</span>VIL<br><span style="color : gray;font-size: 18px;">fan web</span></li>
+				<li><a href="../index.html">HOME</a></li>
+				<li><a href="indexhero.html">RE CHARACTERS</a></li>
+				<li><a href="../quiz/indexquiz.html">QUIZ</a></li>
+				<li><a href="../news/newsindex.html">NEWS</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div id="content">
+			<article>
+				<div class="news-title">
+					RESIDENT EVIL CHARACTERS
+				</div>
+				<div class="choice">
+					<a class="btn hero active">HEROES</a>
+  					<a class="btn villain">VILLAINS</a>
+				</div>
+				<div id="heropage">
+				<div class="charr">
+					<h2>Heroes</h2>
+					<div class="flex-column">
+						<div class="flex-row">
+					       <div class="card" style="background-image: url(../assets/img/cjill.png);"><p class="name jill">Jill Valentine</p></div>
+					       <div class="card" style="background-image: url(../assets/img/ccarlos.jpg);"><p class="name carlos">Carlos Olivera</p></div>
+					       <div class="card" style="background-image: url(../assets/img/ada.png);"><p class="name ada">Ada Wong</p></div>
+					       <div class="card" style="background-image: url(../assets/img/cleon.jpg);"><p class="name leon">Leon S Kennedy</p></div>
+				     </div>
+
+				 </div>
+				</div>
+				<div id="herodata" style="padding : 10px;padding-left: 70px;">
+					
+				</div>
+			    </div>
+			    <div id="villainpage"  style="display: none;">
+				<div class="charr">
+					<h2>Villains</h2>
+					<div class="flex-column">
+						<div class="flex-row">
+					       <div class="card" style="background-image: url(../assets/img/cnemesis.png);"><p class="name nemesis">Nemesis</p></div>
+					       <div class="card" style="background-image: url(../assets/img/cmrx.png);"><p class="name mrx">Mr X (Tyrant)</p></div>
+					       <div class="card" style="background-image: url(../assets/img/csaddler.png);"><p class="name saddler">Luis Saddler</p></div>
+					       <div class="card" style="background-image: url(../assets/img/cwesker.png);"><p class="name wesker">Albert Wesker</p></div>
+				     </div>
+
+				 </div>
+				</div>
+				<div id="villaindata" style="padding : 10px;padding-left: 70px;">
+					
+				</div>
+			</div>
+			</article>
+			<article>
+				
+			</article>
+		</div>
+	</main>
+	<footer>
+		<h1>Resident Evil</h1>
+		<p>Capcom Copyright 2020<br>Resident Evil, atau di Jepang bernama Biohazard, ialah seri permainan video dan waralaba media yang terdiri dari buku komik, novelisasi, films, dan lain-lain.</p>
+	</footer>
+	<script type="text/javascript" src="character.js"></script>
+</body>
+</html>

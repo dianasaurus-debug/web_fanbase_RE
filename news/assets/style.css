@@ -1,0 +1,313 @@
+* {
+	box-sizing: border-box;
+	font-family : "Gill Sans / Gill Sans MT", sans-serif;
+}
+
+body {
+	margin : 0px auto;
+	width : 100%;
+}
+
+a {
+	text-decoration: none;
+}
+footer {
+	margin-top: 0px;
+	padding-left: 500px;
+	padding-right: 500px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+nav {
+	margin: 0 auto;
+	background-color: #140b59;
+	padding : 5px;
+	text-align: center;
+}
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 30px;
+}
+nav a {
+   font-size: 25px;
+   font-weight: bold;
+   text-decoration: none;
+   color: yellow;
+   font-family : "Gill Sans / Gill Sans MT", sans-serif;
+}
+nav a:hover {
+	color : white;
+	font-weight: bolder;
+}
+.red {
+	color : red;
+}
+.logo {
+	font-weight: bold;
+	float : left;
+	font-size: 20px;
+	margin-right: 0px;
+	margin-left: 0px;
+	color : white;
+}
+main {
+	margin-bottom: : 0px
+	padding : 10px;
+	padding-top: 0px;
+	padding-right: 0px;
+	max-width : 100%;
+	background-image:  url('../../assets/img/cnemesis.png'), url('../../assets/img/csaddler.png'), url('../../assets/img/cjill.png'), url('../../assets/img/newbg.jpg');
+	background-position: 130% -60%, -200% -10%, -8% -30%, left top;
+	background-repeat: no-repeat, no-repeat, no-repeat, repeat;
+	background-attachment: fixed;
+	overflow: auto;
+}
+#content {
+	background:rgba(255,255,255, 0.7);
+	padding-left: 40px;
+	padding-right: 30px;
+	margin : 0 auto;
+	max-width: 75%;
+	padding-bottom: 40px;
+}
+* {
+	box-sizing: border-box;
+	font-family : "Gill Sans / Gill Sans MT", sans-serif;
+}
+
+body {
+	margin : 0px auto;
+	width : 100%;
+}
+article {
+	padding : 10px;
+}
+.news-title {
+	text-align : center;
+	color : #29436e;
+	padding-bottom: 10px;
+	padding-top: 40px;
+	font-weight: bold;
+	font-size : 30px;
+}
+.date {
+	text-align : center;
+	color : blue;
+	font-weight: bold;
+	padding-bottom: 20px;
+	font-size : 15x;
+}
+article img {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  max-width: 100%;
+}
+.desc {
+	padding-top: 20px;
+	padding-left: 60px;
+	padding-right: 80px;
+	font-size: 20px;
+}
+
+th, td {
+	padding: 8px;
+	text-align: left;
+	font-weight: bold;
+	font-size: 20px;
+}
+td {
+	color : #29436e;
+}
+tr {
+	border-left: 3px #29436e;
+}
+p img {
+	margin-left: 0px;
+	max-width : 700px;
+}
+.bio {
+	margin-top: 20px;
+	flex-basis: 50%;
+	padding-left: 30px;
+	text-align: justify;
+}
+.card {
+	flex-basis: 25%;
+    background-color: white;
+    background-size : contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height : 220px;
+    border: 1px solid #454545;
+    border-radius: 3px;
+    text-align: center;
+    margin-right: 20px;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.flex-column {
+	overflow:hidden;
+	display: flex;
+	flex-direction: column;
+    max-width: 1300px;
+	margin : 0px auto;
+	text-align: right;
+	max-height: 100% !important;
+}
+.flex-row {
+	display: flex;
+	flex-grow: 1;
+}
+.charr {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.name {
+	background-color: black;
+	color : white;
+	font-weight: bold;
+	padding: 5px;
+	margin-top: 175px;
+	font-size: 20px;
+}
+object {
+	width : 1000px;
+}
+
+.choice {
+  background: (255, 255, 255, 0.9);
+  overflow: hidden;
+  margin-bottom: 20px;
+  margin-left: 70px;
+}
+
+.choice a {
+  float: left;
+  display: block;
+  color: blue;
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 5px solid transparent;
+}
+
+.choice a:hover {
+  border-bottom: 5px solid red;
+}
+
+.choice a.active {
+  border-bottom: 5px solid red;
+}
+#herodata {
+	max-width : 100%;
+}
+.biodata {
+	float : left;color : black; width : 500px;text-align: justify;
+}
+.bio img {
+	max-width : 170px;
+	border-radius: 10px;
+}
+.gtext {
+	float : left;
+}
+.gtext li {
+	cursor: pointer;
+}
+.flex-column-article {
+	display: flex;
+	flex-direction: column;
+    max-width: 1300px;
+	text-align: right;
+	padding: 10px;
+}
+.title-article {
+	text-align: left;
+	color: yellow;
+	font-size : 20px;
+	font-family : "Gill Sans / Gill Sans MT", sans-serif;
+}
+.flex-row-article {
+	display: flex;
+	flex-grow: 1;
+}
+
+.news {
+	flex-basis: 50%;
+	position: relative;
+    cursor: pointer;
+    color : black;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+.n-title a{
+	font-weight: bold;
+	font-size : 19px;
+	text-align: left;
+	color : brown;
+}
+.news img {
+	border-radius: 5px;
+	margin-right : 7px;
+	max-width: 270px;
+	float : left;
+	align-self: flex-start
+}
+.news .text-box {
+	font-family : "Gill Sans / Gill Sans MT", sans-serif;
+	align-self: flex-start;
+	position: relative;
+}
+
+.opening {
+	color : black;
+	font-weight: bolder;
+	font-size: 20px;
+	padding-left: 90px;
+}
+
+#quiz {
+	border-radius: 10px;
+	margin : 0px auto;
+	max-width: 1000px;
+	background: rgba(0,0,0, 0.5);
+	padding: 20px;
+	padding-left: 80px;
+	padding-right: 80px;
+	font-size: 20px;
+	color :  white;
+
+}
+#quiz img {
+	max-width : 500px;
+	margin: 0px 15px 15px 0px;
+}
+.resarea {
+	background-color: black;
+	padding: 20px;
+	max-width: 1000px;
+	margin : 0px auto;
+	border-radius: 10px;
+	color : white;
+	font-size: 20px;
+}
+button {
+	background-color: lightgreen;
+	color : black;
+	font-size: 20px;
+	font-weight: bold;
+	width : 200px;
+	padding: 10px;
+	margin-bottom: 20px;
+}

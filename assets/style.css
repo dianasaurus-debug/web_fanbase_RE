@@ -1,0 +1,316 @@
+@media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+   main {
+   	width: 100%;
+   }
+}
+a {
+	text-decoration: none;
+}
+* {
+	box-sizing: border-box;
+	font-family : "Gill Sans / Gill Sans MT", sans-serif;
+}
+
+body {
+	margin : 0px auto;
+	width : 100%;
+}
+
+header {
+	background-image: url("img/header-img.jpg");
+	background-repeat: no-repeat;
+}
+.desc {
+	color : gray;
+	font-family: "Lucida Sans";
+	font-size: 20px;
+	font-weight: bold;
+}
+.red {
+	color : red;
+}
+.title {
+	color : white;
+	font-size : 80px;
+}
+.header {
+	padding-left: 40px;
+	padding-top: 150px;
+	padding-bottom : 100px;
+
+}
+.iklan {
+	padding : 10px;
+	background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 40%,rgba(0,0,0,0) 100%);
+	display: inline-block;
+	width: 100%;
+}
+nav {
+	background-color: #DAB247;
+	padding : 5px;
+	text-align: center;
+	position: sticky;
+}
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 30px;
+}
+nav a {
+   font-size: 25px;
+   font-weight: bold;
+   text-decoration: none;
+   color: black;
+   font-family : "Gill Sans / Gill Sans MT", sans-serif;
+}
+nav a:hover {
+	color : white;
+	font-weight: bolder;
+}
+
+main {
+	margin-bottom: : 0px
+	padding : 10px;
+	padding-top: 0px;
+	padding-right: 0px;
+	max-width : 100%;
+	background-image: url(img/newbg.jpg);
+	overflow: auto;
+}
+
+aside {
+	background-color : #c28f21;
+	float : right;
+	text-align: center;
+	font-size: 20px;
+	max-width: 25%;
+	padding: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+aside img {
+	max-width: 100%;
+}
+footer {
+	margin-top: 0px;
+	padding-left: 500px;
+	padding-right: 500px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+.casite {
+	padding-bottom: 30px;
+}
+.card {
+	flex-basis: 30%;
+    background-color: #002A32;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 300px;
+    border: 1px solid #454545;
+    border-radius: 3px;
+    text-align: center;
+    margin-right: 7px;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+#content {
+	padding-left: 20px;
+	float : left;
+	max-width: 75%;
+}
+.flex-column {
+	overflow:hidden;
+	display: flex;
+	flex-direction: column;
+    max-width: 1300px;
+	margin : 0px auto;
+	text-align: right;
+	max-height: 100% !important;
+}
+.poll-now {
+	text-align: right;
+	font-size: 20px;
+	color : grey;
+}
+.card-text {
+	margin-top: 160px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 28px;
+	font-family : "Gill Sans / Gill Sans MT", sans-serif;
+}
+
+
+.write {
+	text-align: center;
+	color: white;
+	font-size : 10px;
+	margin-bottom: 2px;
+	font-family : "Gill Sans / Gill Sans MT", sans-serif;
+}
+.flex-row {
+	display: flex;
+	flex-grow: 1;
+}
+.adv {
+   flex-basis: 30%;
+   font-family : "Gill Sans / Gill Sans MT", sans-serif;
+   /* properti pendukung */
+   font-size: 1.1em;
+   text-align: justify;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 100px;
+   color : white;
+   cursor: pointer;
+}
+.adv a {
+	color : white;
+}
+.adv img {
+	max-width:100%;
+	outline: none;
+    border-color: red;
+    box-shadow: 0 0 10px red;
+    margin-bottom: 10px;
+}
+
+.adv img:hover {
+	border-color: white;
+    box-shadow: 0 0 20px white;
+}
+.kind {
+	font-size : 15px;
+	color : yellow;
+}
+article {
+	padding : 10px;
+	padding-bottom: 0px;
+}
+
+.flex-column-article {
+	display: flex;
+	flex-direction: column;
+    max-width: 1300px;
+	text-align: right;
+	padding: 10px;
+}
+.title-article {
+	text-align: left;
+	color: yellow;
+	font-size : 20px;
+	font-family : "Gill Sans / Gill Sans MT", sans-serif;
+}
+.flex-row-article {
+	display: flex;
+	flex-grow: 1;
+}
+
+.news {
+	flex-basis: 50%;
+	position: relative;
+    cursor: pointer;
+    color : white;
+    padding-right: 40px;
+    text-align: left;
+}
+.news-title a{
+	color : #E4D09B;
+	font-size : 19px;
+}
+
+table {
+	border-radius: 10px;
+    overflow: hidden;
+    width: 350px;
+}
+
+.news img {
+	border-radius: 5px;
+	margin-right : 7px;
+	max-width: 270px;
+	float : left;
+	align-self: flex-start
+}
+.news .text-box {
+	font-family : "Gill Sans / Gill Sans MT", sans-serif;
+	align-self: flex-start;
+	position: relative;
+}
+
+.chart td,th{
+	border-bottom: 1px black;
+	padding: 20px;
+	background-color: white;
+}
+.table-chart {
+	flex-basis: 30%;
+	position: relative;
+    color : white;
+    padding-right: 10px;
+    text-align: left;
+}
+
+.chart th {
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #82DFF2;
+}
+.picntext img{
+	float : left;
+	padding-right: 5px;
+	max-width: 100px;
+}
+.picntextv img{
+	float : left;
+	padding-right: 5px;
+	max-width: 115px;
+}
+.picntext h3 {
+	padding-top: 25px;
+	vertical-align: middle;
+}
+.picntext p {
+	color : #234951;
+}
+.picntextv h3 {
+	padding-top: 25px;
+	vertical-align: middle;
+}
+.picntextv p {
+	color : #234951;
+}
+.picntextg img{
+	float : left;
+	padding-right: 5px;
+	max-width: 131px;
+}
+.picntextg h3 {
+	padding-top: 25px;
+	vertical-align: middle;
+}
+.picntextg p {
+	color : #234951;
+}
+figcaption {
+	padding-top : 20px;
+	font-size : 20px;
+	font-weight: bold;
+	text-align: center;
+}
+.casite h2 {
+	color : #29436e;
+}
